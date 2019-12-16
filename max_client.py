@@ -29,7 +29,7 @@ def create_ws():
 
 
 if __name__ == '__main__':
-    times = 600
+    times = 500
     threads = []
     for i in range(0, times):
         t = threading.Thread(target=create_ws)
